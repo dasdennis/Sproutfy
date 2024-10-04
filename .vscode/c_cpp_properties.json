@@ -1,0 +1,56 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/denniss/Projects/Sproutfy/include",
+                "/Users/denniss/Projects/Sproutfy/src",
+                "/Users/denniss/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/denniss/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/Users/denniss/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/denniss/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/denniss/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/denniss/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/denniss/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/denniss/Projects/Sproutfy/include",
+                    "/Users/denniss/Projects/Sproutfy/src",
+                    "/Users/denniss/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/denniss/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/Users/denniss/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/denniss/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/denniss/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/denniss/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/denniss/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60116",
+                "ARDUINO_AVR_MEGA2560",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/Users/denniss/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
