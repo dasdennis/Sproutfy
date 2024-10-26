@@ -30,3 +30,28 @@
 *.exe
 *.out
 *.app
+
+# PlatformIO specific directories and files
+/.pio/
+/.vscode/
+build/
+*.ini.save
+
+# Temporary files and caches
+*.pyc
+*.pyo
+__pycache__/
+*.tmp
+
+# Compilation artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.log
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
