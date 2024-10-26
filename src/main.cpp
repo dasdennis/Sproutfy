@@ -56,6 +56,7 @@ void setup() {
     pinMode(pumpRelayPins[i], OUTPUT);
     digitalWrite(pumpRelayPins[i], HIGH);
   }
+}
 
 // Função para ler umidade do solo
 int readSoilMoisture(int pin) {
@@ -132,6 +133,3 @@ void loop() {
     currentSensorIndex = (currentSensorIndex + 1) % numSensors;
   }
 }
-
-
-
